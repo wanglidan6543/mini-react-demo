@@ -1,0 +1,6 @@
+<view>Component 中：</view>
+<view class="intro">计数器：{{counter.total}}</view>
+<view class="intro">
+  <button bind:tap="buttonTap">update</button>
+</view>
+<view class="intro">购物车数量：{{shopData.total}}</view>

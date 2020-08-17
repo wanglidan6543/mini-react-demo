@@ -1,0 +1,9 @@
+<view>Page 中：</view>
+<view class="intro">计数器：{{counter.total}}</view>
+<view class="intro">
+  <button bind:tap="update">update</button>
+</view>
+<view class="intro">
+  <button bind:tap="addToShopCart">加入购物车</button>
+</view>
+<component />
